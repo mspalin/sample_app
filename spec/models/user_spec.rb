@@ -17,6 +17,7 @@ describe User do
   before do
     @user = User.new(name: "Example User", email: "user@example.com",
                      password: "foobar", password_digest: "foobar")
+  end
 
   subject { @user }
 
